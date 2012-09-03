@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gpit.android.we"
+    android:versionCode="1"
+    android:versionName="0.4" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <permission
+        android:name="com.gpit.android.we.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.gpit.android.we.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:name=".WeApplication" android:debuggable="true">
+        <activity
+            android:label="@string/app_name"
+            android:name=".LoginActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".VideoPlayerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".SignupActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:name="com.broov.player.VideoPlayer"
+            android:screenOrientation="landscape" >
+        </activity>
+        <receiver
+            android:name=".C2DMReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter >
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.gpit.android.we" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.gpit.android.we" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

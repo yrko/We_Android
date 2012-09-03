@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:paddingLeft="10dp" android:paddingRight="10dp">
+
+    <EditText
+        android:id="@+id/nickname_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:singleLine="true" android:imeOptions="actionNext" android:hint="@string/nick_name_hint">
+    </EditText>
+
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:singleLine="true" android:imeOptions="actionNext" android:inputType="textEmailAddress" android:hint="@string/email_hint"/>
+
+    <EditText
+        android:id="@+id/pwd_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:singleLine="true" android:password="true" android:imeOptions="actionNext" android:hint="@string/password_hint"/>
+
+    <EditText
+        android:id="@+id/confirm_pwd_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:singleLine="true" android:password="true" android:imeOptions="actionSend" android:hint="@string/confirm_pwd_hint"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"/>
+
+</LinearLayout>

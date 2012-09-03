@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WeActivity!</string>
+    <string name="app_name">We</string>
+    <string name="login">Login</string>
+    <string name="email_hint">Type email address</string>
+    <string name="password_hint">Type password</string>
+    <string name="empty_email">Empty email address.</string>
+    <string name="invalidate_email">Invalidate email address.</string>
+    <string name="empty_password">Empty password.</string>
+    <string name="no_exist_email">Not registered email address.</string>
+    <string name="incorrect_password">Incorrect password.</string>
+    <string name="error">Error</string>
+    <string name="unkwon_error">Unknown Error</string>
+    <string name="ok">OK</string>
+    <string name="sign_up">SignUp</string>
+    <string name="login_fail_title">Login Failed</string>
+    <string name="login_fail_desc">Incorrect email or password!</string>
+    <string name="empty_nick_name">Empty nick name!</string>
+    <string name="empty_confirm_password">Empty confirm password!</string>
+    <string name="no_match_password">No match password!</string>
+    <string name="nick_name_hint">Type nick name</string>
+    <string name="confirm_pwd_hint">Type confirm password</string>
+    <string name="signup_fail_title">Sign up Failed</string>
+    <string name="signup_fail_desc">Please try later.</string>
+    <string name="server_error">Internal server error.</string>
+    <string name="download_fail">Fail download! Check SDCard status.</string>
+    <string name="save_fail">Fail saved! Check SDCard status.</string>
+    <string name="no_exist_videos">There isn\'t any more videos.</string>
+    <string name="fail_upload_video">Sorry. Failed upload a video.</string>
+    <string name="month">month</string>
+    <string name="months">months</string>
+    <string name="day">day</string>
+    <string name="days">days</string>
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
+    <string name="min">minute</string>
+    <string name="mins">minutes</string>
+    <string name="second">second</string>
+    <string name="seconds">seconds</string>
+    <string name="ago">ago</string>
+    <string name="downloading">Downloading...</string>
+
+</resources>

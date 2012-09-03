@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray_bg_title">#f5f5f5</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_color">#767676</color>
+    <color name="gray_light_color">#F2F2F2</color>
+    <color name="black_color">#ff000000</color>
+    <color name="event_time_color">#0D2355</color>
+    <color name="disable_color">#8397B0</color>
+    <color name="event_hint_color">#6C6E7D</color>
+    <color name="divider_color">#15254C</color>
+    <color name="msg_user_name_color">#F6F8D1</color>
+    <color name="msg_date_sent_color">#A5BEDD</color>
+    <color name="contact_label_color">#49587F</color>
+    <color name="net_stat_color">#2DAB5A</color>
+    <color name="blue_color">#0F48B1</color>
+	<color name="transparent">#000000FF</color>
+</resources>
